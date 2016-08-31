@@ -21,7 +21,7 @@ image_type = input("Image type")# you can change the query for the image  here
 # image_type="Chinese_food"
 query= query.split()
 query='+'.join(query)
-url="https://www.google.co.in/search?q="+query+"&source=lnms&tbm=isch"
+url="https://www.google.com/search?q="+query+"&source=lnms&tbm=isch"
 print(url)
 
 #add the directory for your image here
