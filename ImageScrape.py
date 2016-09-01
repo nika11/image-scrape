@@ -25,7 +25,7 @@ url="https://www.google.com/search?q="+query+"&source=lnms&tbm=isch"
 print(url)
 
 #add the directory for your image here
-DIR="//Users//anbing//Downloads//image_dw"+(query.split('+'))[0]+"//"
+DIR="//Users//Downloads//image_dw"+(query.split('+'))[0]+"//"
 print(DIR)
 header={'User-Agent':"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"}
 soup = get_soup(url,header)
